@@ -20,7 +20,7 @@ O segundo trabalho é um projeto livre utilizando Arduino, combinando software e
 https://youtu.be/U3GOM8prClg?feature=shared
 
 ## Imagens com todas as entradas do circuito
-![alt text](<midias/Circuito02.jpg>)
+![alt text](<midias/Circuito02.png>)
 
 ## Código do Piano: Feito no Software Arduino IDE
 
