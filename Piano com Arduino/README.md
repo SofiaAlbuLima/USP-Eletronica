@@ -17,6 +17,7 @@ O segundo trabalho é um projeto livre utilizando Arduino, combinando software e
 ![alt text](<midias/Circuito01.jpg>)
 
 ## Vídeo mostrando o Projeto Funcionando
+https://youtu.be/U3GOM8prClg?feature=shared
 
 ## Código do Piano: Feito no Software Arduino IDE
 
