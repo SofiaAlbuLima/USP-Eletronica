@@ -1,5 +1,5 @@
 # Relatório do segundo projeto: Piano com Arduino
-O segundo trabalho é um projeto livre utilizando Arduino, combinando software e hardware. Ele inclui o código-fonte, o circuito com todas as conexões aos periféricos, imagens do protótipo e um vídeo de demonstração explicando o funcionamento do sistema e os cálculos dos componentes utilizados.
+O segundo trabalho é um projeto livre utilizando Arduino, combinando software e hardware. Ele inclui o código-fonte feito no Software Arduino IDE, o circuito com todas as conexões, imagens do protótipo e um vídeo de demonstração explicando o funcionamento do sistema.
 
 ## Tabela de componentes usados & valores
 
@@ -14,7 +14,78 @@ O segundo trabalho é um projeto livre utilizando Arduino, combinando software e
 |Total:||R$111,96|
 
 ## Imagens e vídeo do Projeto montado
-![alt text](<Imagem do WhatsApp de 2025-07-01 à(s) 22.34.51_e47b80b1.jpg>)
-<video controls src="Vídeo do WhatsApp de 2025-07-01 à(s) 22.34.50_d79ff2f3.mp4" title="Title"></video>
+![alt text](<midias/Circuito01.jpg>)
+<video controls src="midias/PianoFuncionando.mp4" title="Title"></video>
 
 ## Vídeo mostrando o Projeto Funcionando
+
+## Código do Piano: Feito no Software Arduino IDE
+
+```const int buzzer = 11;
+
+const int botao_do0 = 2;
+const int botao_re = 3;
+const int botao_mi = 4;
+const int botao_fa = 5;
+const int botao_sol = 6;
+const int botao_la = 7;
+const int botao_si = 8;
+const int botao_do1 = 9;
+
+double do0 = 261.63; // frequência da nota dó
+double re = 293.66; // frequência da nota ré
+double mi = 329.63; // frequência da nota mi
+double fa = 349.23; // frequência da nota fá
+double sol = 392;   // frequência da nota sol
+double la = 440;    // frequência da nota lá
+double si = 493.88; // frequência da nota si
+double do1 = 523;   // frequência da nota dó com uma oitava acima
+
+void setup()
+{
+  pinMode(botao_do0, INPUT);
+  pinMode(botao_re, INPUT);
+  pinMode(botao_mi, INPUT);
+  pinMode(botao_fa, INPUT);
+  pinMode(botao_sol, INPUT);
+  pinMode(botao_la, INPUT);
+  pinMode(botao_si, INPUT);
+  pinMode(botao_do1, INPUT);
+  pinMode(buzzer, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  Serial.println(digitalRead(botao_do0));
+  Serial.println(digitalRead(botao_re));
+  Serial.println(digitalRead(botao_mi));
+  Serial.println(digitalRead(botao_fa));
+  Serial.println(digitalRead(botao_sol));
+  Serial.println(digitalRead(botao_la));
+  Serial.println(digitalRead(botao_si));
+  Serial.println(digitalRead(botao_do1));
+
+  if (digitalRead(botao_do0) == 1) {
+    tone(buzzer, do0, 250);
+  } else if (digitalRead(botao_re) == 1) {
+    tone(buzzer, re, 250);
+  } else if (digitalRead(botao_mi) == 1) {
+    tone(buzzer, mi, 250);
+  } else if (digitalRead(botao_fa) == 1) {
+    tone(buzzer, fa, 250);
+  } else if (digitalRead(botao_sol) == 1) {
+    tone(buzzer, sol, 250);
+  } else if (digitalRead(botao_la) == 1) {
+    tone(buzzer, la, 250);
+  } else if (digitalRead(botao_si) == 1) {
+    tone(buzzer, si, 250);
+  } else if (digitalRead(botao_do1) == 1) {
+    tone(buzzer, do1, 250);
+  } else {
+    noTone(buzzer);
+  }
+
+  delay(10);
+}
+```
