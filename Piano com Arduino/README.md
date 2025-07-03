@@ -19,6 +19,9 @@ O segundo trabalho é um projeto livre utilizando Arduino, combinando software e
 ## Vídeo mostrando o Projeto Funcionando
 https://youtu.be/U3GOM8prClg?feature=shared
 
+## Imagens com todas as entradas do circuito
+![alt text](<midias/Circuito02.jpg>)
+
 ## Código do Piano: Feito no Software Arduino IDE
 
 ```const int buzzer = 11;
