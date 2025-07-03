@@ -11,6 +11,7 @@ O segundo trabalho é um projeto livre utilizando Arduino, combinando software e
 |8x Resistor|CR25 220R|R$0,56|
 |1x Buzzer|Passivo|R$9,70|
 |65x Jumper (pacote)|Macho x Macho|R$20,00|
+|Total:||R$111,96|
 
 ## Imagens e vídeo do Projeto montado
 ![alt text](<Imagem do WhatsApp de 2025-07-01 à(s) 22.34.51_e47b80b1.jpg>)
