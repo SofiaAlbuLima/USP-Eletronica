@@ -23,7 +23,8 @@ O projeto inclui o diagrama esquemático com valores dos componentes, simulaçã
 https://tinyurl.com/2yxqvy6e
 
 ## Projeto Esquemático no EAGLE
-|------------|---------------|-------|
+![alt text](<Imagem do WhatsApp de 2025-07-03 à(s) 15.38.32_76d938f1.jpg>)
+![alt text](<Imagem do WhatsApp de 2025-07-03 à(s) 15.39.12_438aa281.jpg>)
 
 ## Fotos da Protoboard com o circuito montado
 ![alt text](IMG-20250703-WA0076[1].jpg)
