@@ -28,7 +28,7 @@ https://tinyurl.com/2yxqvy6e
 
 ## Fotos da Protoboard com o circuito montado
 ![alt text](midias/Circuito02.jpg)
-![alt text](midias/Circuito01.jpg)
+![alt text](midias/Circuito01.png)
 
 ## Vídeo mostrando o Projeto Funcionando
 https://youtu.be/LFZHmxOWCVs?feature=shared
