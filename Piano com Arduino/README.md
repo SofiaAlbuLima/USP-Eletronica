@@ -13,9 +13,8 @@ O segundo trabalho é um projeto livre utilizando Arduino, combinando software e
 |65x Jumper (pacote)|Macho x Macho|R$20,00|
 |Total:||R$111,96|
 
-## Imagens e vídeo do Projeto montado
+## Imagem do Projeto montado
 ![alt text](<midias/Circuito01.jpg>)
-<video controls src="midias/PianoFuncionando.mp4" title="Title"></video>
 
 ## Vídeo mostrando o Projeto Funcionando
 
