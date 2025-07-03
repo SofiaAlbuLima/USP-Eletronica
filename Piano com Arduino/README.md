@@ -1,4 +1,4 @@
-# Relatório do segundo projeto: Piano com Arduíno
+# Relatório do segundo projeto: Piano com Arduino
 O segundo trabalho é um projeto livre utilizando Arduino, combinando software e hardware. Ele inclui o código-fonte, o circuito com todas as conexões aos periféricos, imagens do protótipo e um vídeo de demonstração explicando o funcionamento do sistema e os cálculos dos componentes utilizados.
 
 ## Tabela de componentes usados & valores
