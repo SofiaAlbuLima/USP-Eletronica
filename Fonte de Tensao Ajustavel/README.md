@@ -13,6 +13,7 @@ O projeto inclui o diagrama esquemático com valores dos componentes, simulaçã
 |1x Protoboard|BB-01 400P|R$21,70|
 |1x Potenciômetro|1W B10K|R$7,00|
 |10x Resistor|CR25 4K7|R$0,70|
+|3x Ponte Retificadora|2W10M 2A 800V|R$11,70|
 |1x Resistor|1W 56R|R$0,40|
 |3x Transistor|2N2222A NPN 60V|R$7,80|
 |65x Jumper (pacote)|Macho x Macho|R$20,00|

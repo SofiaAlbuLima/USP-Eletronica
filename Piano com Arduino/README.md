@@ -5,11 +5,11 @@ O segundo trabalho é um projeto livre utilizando Arduino, combinando software e
 
 | Componente | Especificação | Valor |
 |------------|---------------|-------|
+|1x Arduino|UNO R3 SMD|R$ 52,00|
+|1x Protoboard|BB-01 400P|R$21,70|
 |8x Chave Tátil 6x6x4|3mm 4 pinos|R$8,00|
-|10x Resistor|CR25 220R|R$0,70|
-|3x Ponte Retificadora|2W10M 2A 800V|R$11,70|
-|1x Resistor|5W 120R|R$1,9|
-|1x Buzzer Passivo|12A 3/7V C N 3 A 7V|R$9,70|
+|8x Resistor|CR25 220R|R$0,56|
+|1x Buzzer|Passivo|R$9,70|
 |65x Jumper (pacote)|Macho x Macho|R$20,00|
 
 ## Imagens e vídeo do Projeto montado
