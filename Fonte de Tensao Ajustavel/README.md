@@ -32,3 +32,92 @@ https://tinyurl.com/2yxqvy6e
 
 ## Vídeo mostrando o Projeto Funcionando
 https://youtu.be/LFZHmxOWCVs?feature=shared
+
+# Cálculos
+
+## Antes do transformador
+
+A tensão RMS da tomada é:
+
+V_tomada = 127 V
+
+Portanto, a tensão de pico é:
+
+V_pico_tomada = 127 × √2 ≈ 179,6 V
+
+---
+
+## Após o transformador
+
+A tensão de saída RMS do transformador é 18 V, convertida para pico:
+
+V0_pico ≈ 18 × √2 ≈ 25,5 V
+
+---
+
+## Depois da ponte retificadora
+
+Considerando uma queda de tensão de aproximadamente 2 V na ponte:
+
+V1_pico ≈ 25,5 − 2 ≈ 23,5 V
+
+---
+
+## Buscando a capacitância mínima para um ripple de no máximo 10%
+
+A corrente consumida pelo circuito é aproximadamente:
+
+I_carga ≈ 85 mA
+
+A resistência equivalente da carga é:
+
+R_eq = V / I = 12 V / 0,085 A ≈ 141 Ω
+
+A frequência da retificação de onda completa é:
+
+f = 2 × 60 Hz = 120 Hz
+
+O ripple máximo permitido (10%) é:
+
+V_ripple = 0,10 × V1_pico = 0,10 × 23,5 ≈ 2,35 V
+
+Usando a fórmula:
+
+V_ripple = Vcc / (f × C × R_eq)
+
+Temos:
+
+2,35 = 23,5 / (120 × C × 141)
+
+Resolvendo para C:
+
+120 × 141 = 16.920
+2,35 × 16.920 = 39.822
+C ≥ 23,5 / 39.822 ≈ 0,000590 F = 590 µF
+
+---
+
+## Com um capacitor de 680 µF, é possível obter um ripple de:
+
+Calculando o ripple real:
+
+V_ripple = 23,5 / (120 × 680e-6 × 141)
+
+Primeiro o denominador:
+
+120 × 680e-6 = 0,0816
+0,0816 × 141 = 11,5
+
+Portanto:
+
+V_ripple ≈ 23,5 / 11,5 ≈ 2,04 V
+
+Percentual de ripple:
+
+2,04 / 23,5 ≈ 8,7%
+
+---
+
+## Resumo
+
+Com o capacitor de 680 µF, o ripple fica abaixo de 10%, atendendo ao critério definido.
